@@ -1,0 +1,8 @@
+GEN     modules.builtin
+LD      .tmp_vmlinux.kallsyms1
+ld: arch/x86/entry/syscall_64.o:(.rodata+0xe00): referência não definida para "__x64_sys_getuserweight"
+ld: arch/x86/entry/syscall_64.o:(.rodata+0xe08): referência não definida para "__x64_sys_setuserweight"
+make: *** [Makefile:1176: vmlinux] Erro 1
+
+Link de ajuda 1: https://medium.com/anubhav-shrimal/adding-a-hello-world-system-call-to-linux-kernel-dad32875872
+Link de ajuda 2: https://stackoverflow.com/questions/66800646/unable-to-add-a-custom-hello-system-call-on-x64-ubuntu-linux
